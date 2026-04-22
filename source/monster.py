@@ -63,8 +63,7 @@ class Monster(BaseModel):
         if self.nature:
             output += f"{self.nature} Nature\n"
         for move in self.moves:
-            if move is not None:
-                output += f"- {move.name}\n"
+            output += f"- {move.name}\n"
         return output
 
 
