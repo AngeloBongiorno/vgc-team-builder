@@ -1,5 +1,7 @@
 # Pokémon Squad Builder
 
+*! WORK IN PROGRESS !*
+
 A Pokémon VGC team Builder.
 
 This AI-based assistant will help you build a viable Pokémon VGC team.
