@@ -34,7 +34,7 @@ def ask_agent(messages: list[Any]) -> None:
         while True: 
             response = client.chat.completions.create(
                 model="nvidia/nemotron-3-super-120b-a12b:free",
-                messages=[{"role": "system", "content": load_system_prompt("system_prompt.md", team=str(current_team), regulation=regulation, tools_usage_guidelines_list=available_tools_guidance)}, *messages],
+                messages=[{"role": "system", "content": load_system_prompt("source/prompts/system_prompt.md", team=str(current_team), regulation=regulation, tools_usage_guidelines_list=available_tools_guidance)}, *messages],
                 tools=tools
             )
             assistant_message = response.choices[0].message
@@ -42,11 +42,11 @@ def ask_agent(messages: list[Any]) -> None:
 
             tool_calls = response.choices[0].message.tool_calls
             if not tool_calls:
-                print(f"Assistant: {assistant_message.content}")
+                print(f"\n- Assistant: {assistant_message.content}")
                 break
             for tool_call in tool_calls:
                 if not isinstance(tool_call, ChatCompletionMessageToolCall):
-                    print("Received tool call that is not of type ChatCompletionMessageToolCall, skipping...")
+                    print("\n- Received tool call that is not of type ChatCompletionMessageToolCall, skipping...")
                     continue
                 function_name = tool_call.function.name
                 arguments = tool_call.function.arguments
@@ -56,4 +56,11 @@ def ask_agent(messages: list[Any]) -> None:
                     "tool_call_id": tool_call.id,
                     "content": tool_call_response
                 })
+        
+        print("*** CUURRENT TEAM STATE ***")
+        print(current_team)
+        print("**************************")
 
+if __name__ == "__main__":
+    initial_messages: list[Any] = []
+    ask_agent(initial_messages)
