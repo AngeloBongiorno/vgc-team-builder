@@ -57,7 +57,7 @@ def ask_agent(messages: list[Any]) -> None:
                     "content": tool_call_response
                 })
         
-        print("*** CUURRENT TEAM STATE ***")
+        print("*** CURRENT TEAM STATE ***")
         print(current_team)
         print("**************************")
 
