@@ -1,29 +1,29 @@
 import pytest
 from pydantic import ValidationError
-from monster import Move, Gender, BasePointsSpread, Monster
+from monster import Move, Gender, StatPointsSpread, Monster
 
 
-# --- BasePointsSpread ---
+# --- StatPointsSpread ---
 
-def test_bps_valid():
-    bps = BasePointsSpread(hp=32, atk=32, spe=2)
-    assert bps.hp == 32
+def test_sps_valid():
+    sps = StatPointsSpread(hp=32, atk=32, spe=2)
+    assert sps.hp == 32
 
-def test_bps_stat_exceeds_max():
+def test_sps_stat_exceeds_max():
     with pytest.raises(ValidationError):
-        BasePointsSpread(hp=33)
+        StatPointsSpread(hp=33)
 
-def test_bps_stat_negative():
+def test_sps_stat_negative():
     with pytest.raises(ValidationError):
-        BasePointsSpread(atk=-1)
+        StatPointsSpread(atk=-1)
 
-def test_bps_total_exceeds_cap():
+def test_sps_total_exceeds_cap():
     with pytest.raises(ValidationError):
-        BasePointsSpread(hp=32, atk=32, spe=3)  # total = 67
+        StatPointsSpread(hp=32, atk=32, spe=3)  # total = 67
 
-def test_bps_defaults_to_zero():
-    bps = BasePointsSpread()
-    assert sum([bps.hp, bps.atk, bps.dfs, bps.spa, bps.spd, bps.spe]) == 0
+def test_sps_defaults_to_zero():
+    sps = StatPointsSpread()
+    assert sum([sps.hp, sps.atk, sps.dfs, sps.spa, sps.spd, sps.spe]) == 0
 
 
 # --- Monster ---
@@ -50,7 +50,7 @@ def test_monster_str_full():
         ability="Rough Skin",
         nature="Jolly",
         moves=[Move(name="Earthquake"), Move(name="Scale Shot")],
-        bps=BasePointsSpread(hp=4, spe=32)
+        sps=StatPointsSpread(hp=4, spe=32)
     )
     output = str(m)
     assert "Chompy (Garchomp)" in output

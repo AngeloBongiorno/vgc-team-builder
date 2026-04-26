@@ -1,6 +1,6 @@
 import pytest
-from team_edit_api import set_species, set_nick, set_gender, set_item, set_tera_type, set_ability, set_nature, add_move, remove_move, set_bps, add_species, remove_species
-from monster import Monster, BasePointsSpread, Move, Gender
+from team_edit_api import set_species, set_nick, set_gender, set_item, set_tera_type, set_ability, set_nature, add_move, remove_move, set_stat_pts, add_species, remove_species, clear_team
+from monster import Monster, StatPointsSpread, Move, Gender
 from team import Team
 
 @pytest.fixture
@@ -14,7 +14,7 @@ def team():
                 ability="Rough Skin",
                 nature="Jolly",
                 moves=[Move(name="Earthquake"), Move(name="Scale Shot")],
-                bps=BasePointsSpread(hp=4, spe=32)
+                sps=StatPointsSpread(hp=4, spe=32)
         )
         m2 = Monster(
                 species="Togekiss",
@@ -25,7 +25,7 @@ def team():
                 ability="Serene Grace",
                 nature="Jolly",
                 moves=[Move(name="Dazzling Gleam"), Move(name="Air Slash")],
-                bps=BasePointsSpread(hp=4, spe=32)
+                sps=StatPointsSpread(hp=4, spe=32)
         )
         return Team(
             slots=[m1, m2],
@@ -168,12 +168,16 @@ def test_remove_move_from_nonexistent_mon(team: Team):
     with pytest.raises(ValueError):
         remove_move("NonExistentMon", "AnyMove", team)
 
-def test_set_bps(team: Team):
-    new_bps = BasePointsSpread(hp=32, atk=32, dfs=2)
-    new_team = set_bps("Garchomp", new_bps, team)
-    assert any(monster.bps == new_bps for monster in new_team.slots if monster.species == "Garchomp")
+def test_set_sps(team: Team):
+    new_sps = StatPointsSpread(hp=32, atk=32, dfs=2)
+    new_team = set_stat_pts("Garchomp", new_sps, team)
+    assert any(monster.sps == new_sps for monster in new_team.slots if monster.species == "Garchomp")
 
-def test_set_bps_nonexistent_mon(team: Team):
-    new_bps = BasePointsSpread(hp=32, atk=32, dfs=2)
+def test_set_sps_nonexistent_mon(team: Team):
+    new_sps = StatPointsSpread(hp=32, atk=32, dfs=2)
     with pytest.raises(ValueError):
-        set_bps("NonExistentMon", new_bps, team)
+        set_stat_pts("NonExistentMon", new_sps, team)
+
+def test_clear_team(team: Team):
+    cleared_team = clear_team(team)
+    assert len(cleared_team.slots) == 0

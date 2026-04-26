@@ -1,4 +1,4 @@
-from monster import Monster, BasePointsSpread, Gender, Move
+from monster import Monster, StatPointsSpread, Gender, Move
 from team import Team
 
 def set_species(old_species_name: str, new_species_name: str, team: Team) -> Team:
@@ -151,15 +151,21 @@ def replace_move(species_name: str, old_move_name: str, new_move_name: str, team
         raise ValueError(f"Species '{species_name}' not found in team")
     return team
 
-def set_bps(species_name: str, bps: BasePointsSpread, team: Team) -> Team:
-    "Sets the base points spread of a monster in the team. If the monster is not found, raises an error."
+def set_stat_pts(species_name: str, sps: StatPointsSpread, team: Team) -> Team:
+    "Sets the stat points spread of a monster in the team. If the monster is not found, raises an error."
     
     team = team.model_copy(deep=True)
     for slot in team.slots:
         if slot.species == species_name:
-            slot.bps = bps
+            slot.sps = sps
             break
     else:
         raise ValueError(f"Species '{species_name}' not found in team")
     return team
 
+def clear_team(team: Team) -> Team:
+    "Removes all monsters from the team, resulting in an empty team."
+
+    team = team.model_copy(deep=True)
+    team.slots = []
+    return team

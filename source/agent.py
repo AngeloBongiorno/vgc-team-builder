@@ -1,7 +1,8 @@
 import dotenv 
 import os
 from openai import OpenAI
-from utils import load_system_prompt, build_tool_guidance
+from utils import load_system_prompt
+from tools import available_tools_guidance
 
 dotenv.load_dotenv()
 
@@ -10,7 +11,7 @@ regulation = "this is a mock regulation, for testing purposes only, the system i
 
 system_prompt = load_system_prompt(
     "system_prompt.md",
-    tools_usage_guidelines_list=build_tool_guidance(),
+    tools_usage_guidelines_list=available_tools_guidance,
     regulation=regulation
 )
 

@@ -12,7 +12,7 @@ class Gender(str, Enum):
 
 BPValue = Annotated[int, Field(ge=0, le=32)]
 
-class BasePointsSpread(BaseModel):
+class StatPointsSpread(BaseModel):
     hp: BPValue = 0
     atk: BPValue = 0
     dfs: BPValue = 0
@@ -21,10 +21,10 @@ class BasePointsSpread(BaseModel):
     spe: BPValue = 0
 
     @model_validator(mode="after")
-    def check_total(self) -> "BasePointsSpread":
+    def check_total(self) -> "StatPointsSpread":
         total = self.hp + self.atk + self.dfs + self.spa + self.spd + self.spe
         if total > 66:
-            raise ValueError(f"Total base points cannot exceed 66, got {total}")
+            raise ValueError(f"Total stat points cannot exceed 66, got {total}")
         return self
     
     def __str__(self):
@@ -39,7 +39,7 @@ class Monster(BaseModel):
     ability: str | None = None
     nature: str | None = None
     moves: Annotated[list[Move], Field(min_length=0, max_length=4)] = []
-    bps: BasePointsSpread = Field(default_factory=BasePointsSpread)
+    sps: StatPointsSpread = Field(default_factory=StatPointsSpread)
 
     def __str__(self):
         """
@@ -57,7 +57,7 @@ class Monster(BaseModel):
         output += '\n'
         if self.ability:
             output += f"Ability: {self.ability}\n"
-        output += f"{self.bps}\n"
+        output += f"{self.sps}\n"
         if self.tera_type:
             output += f"Tera Type: {self.tera_type}\n"
         if self.nature:
@@ -79,6 +79,6 @@ if __name__ == "__main__":
         ability="Rough Skin",
         nature="Jolly",
         moves=[Move(name="Earthquake"), Move(name="Scale Shot")],
-        bps=BasePointsSpread(hp=4, spe=32)
+        sps=StatPointsSpread(hp=4, spe=32)
     )
     print(m)
