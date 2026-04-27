@@ -32,12 +32,28 @@ def ask_agent(messages: list[Any]) -> None:
         messages.append(user_message)
 
         while True: 
-            response = client.chat.completions.create(
-                model="nvidia/nemotron-3-super-120b-a12b:free",
-                messages=[{"role": "system", "content": load_system_prompt("source/prompts/system_prompt.md", team=str(current_team), regulation=regulation, tools_usage_guidelines_list=available_tools_guidance)}, *messages],
-                tools=tools
-            )
-            assistant_message = response.choices[0].message
+
+            try:
+                response = client.chat.completions.create(
+                    model="google/gemma-4-26b-a4b-it:free",
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": load_system_prompt(
+                                "source/prompts/system_prompt.md",
+                                team=str(current_team),
+                                regulation=regulation,
+                                tools_usage_guidelines_list=available_tools_guidance
+                                )
+                        },
+                        *messages],
+                    tools=tools
+                )
+                assistant_message = response.choices[0].message
+            except Exception as e:
+                print(f"There was an error {e}")
+                break
+
             messages.append(assistant_message)
 
             tool_calls = response.choices[0].message.tool_calls
