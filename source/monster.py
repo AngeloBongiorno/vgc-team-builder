@@ -66,6 +66,9 @@ class Monster(BaseModel):
             output += f"- {move.name}\n"
         return output
 
+    def get_type(self):
+        
+
 
 
 if __name__ == "__main__":
