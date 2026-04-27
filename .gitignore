@@ -1,5 +1,5 @@
 # .gitignore
-__pycache__/
+*.__pycache__/
 *.pyc
 .env
 .venv/
@@ -8,4 +8,4 @@ venv/
 *.egg-info/
 dist/
 *.drawio
-.DS_Store
+*.DS_Store
