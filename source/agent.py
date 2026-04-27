@@ -3,14 +3,12 @@ import dotenv
 import os
 from openai import OpenAI
 from openai.types.chat import ChatCompletionMessageToolCall, ChatCompletionUserMessageParam
+from logger import logger
 from utils import load_system_prompt
 from tools import tools, available_tools_guidance, dispatch_tool_call
 from team import Team
 
-
 dotenv.load_dotenv()
-
-
 regulation = "this is a mock regulation, for testing purposes only, the system is not in prod yet"
 current_team: Team = Team(format=regulation)
 
@@ -49,12 +47,16 @@ def ask_agent(messages: list[Any]) -> None:
                         *messages],
                     tools=tools
                 )
+                logger.debug(f"API call | model={response.model} | tokens={response.usage}")
+                if not response.choices:
+                    logger.error(f"Empty response from API: {response}")
                 assistant_message = response.choices[0].message
             except Exception as e:
-                print(f"There was an error {e}")
+                logger.error(f"API call failed: {e}")
                 break
 
             messages.append(assistant_message)
+            logger.info(f"Assistant response | length={len(assistant_message.content or '')}")
 
             tool_calls = response.choices[0].message.tool_calls
             if not tool_calls:
@@ -62,11 +64,13 @@ def ask_agent(messages: list[Any]) -> None:
                 break
             for tool_call in tool_calls:
                 if not isinstance(tool_call, ChatCompletionMessageToolCall):
-                    print("\n- Received tool call that is not of type ChatCompletionMessageToolCall, skipping...")
+                    logger.error(f"Received tool call that is not of type ChatCompletionMessageToolCall: ({tool_call}), skipping...")
                     continue
                 function_name = tool_call.function.name
                 arguments = tool_call.function.arguments
+                logger.info(f"Tool call name: {function_name} | args: {arguments}")
                 current_team, tool_call_response = dispatch_tool_call(function_name, arguments, current_team)
+                logger.debug(f"Tool result | {tool_call_response[:200]}")
                 messages.append({
                     "role": "tool",
                     "tool_call_id": tool_call.id,
@@ -76,6 +80,7 @@ def ask_agent(messages: list[Any]) -> None:
         print("*** CURRENT TEAM STATE ***")
         print(current_team)
         print("**************************")
+        print("\n")
 
 if __name__ == "__main__":
     initial_messages: list[Any] = []
