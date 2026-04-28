@@ -546,14 +546,14 @@ Krokorok,,Ground,Dark
 Krookodile,,Ground,Dark
 Kubfu,,Fighting,
 Kyogre,,Water,
-Kyogre,Kyogre-Primal ,Water,
+Kyogre,Kyogre-Primal,Water,
 Kyurem,,Dragon,Ice
-Kyurem,Black Kyurem,Dragon,Ice
-Kyurem,White Kyurem,Dragon,Ice
+Kyurem,Kyurem-Black,Dragon,Ice
+Kyurem,Kyurem-White,Dragon,Ice
 Lairon,,Steel,Rock
 Lampent,,Ghost,Fire
-Landorus,Incarnate Forme,Ground,Flying
-Landorus,Therian Forme,Ground,Flying
+Landorus,,Ground,Flying
+Landorus,Landorus-Therian,Ground,Flying
 Lanturn,,Water,Electric
 Lapras,,Water,Ice
 Larvesta,,Bug,Fire
@@ -596,9 +596,9 @@ Lurantis,,Grass,
 Luvdisc,,Water,
 Luxio,,Electric,
 Luxray,,Electric,
-Lycanroc,Dusk Form,Rock,
-Lycanroc,Midday Form,Rock,
-Lycanroc,Midnight Form,Rock,
+Lycanroc,,Rock,
+Lycanroc,Lycanroc-Dusk,Rock,
+Lycanroc,Lycanroc-Midnight,Rock,
 Mabosstiff,,Dark,
 Machamp,,Fighting,
 Machoke,,Fighting,
@@ -633,8 +633,8 @@ Marshadow,,Fighting,Ghost
 Marshtomp,,Water,Ground
 Maschiff,,Dark,
 Masquerain,,Bug,Flying
-Maushold,Family of Four,Normal,
-Maushold,Family of Three,Normal,
+Maushold,,Normal,
+Maushold,Maushold-Four,Normal,
 Mawile,,Steel,Fairy
 Mawile,Mawile-Mega,Steel,Fairy
 Medicham,,Fighting,Psychic
@@ -642,12 +642,14 @@ Medicham,Medicham-Mega,Fighting,Psychic
 Meditite,,Fighting,Psychic
 Meganium,,Grass,
 Melmetal,,Steel,
-Meloetta,Aria Forme,Normal,Psychic
-Meloetta,Pirouette Forme,Normal,Fighting
+Meloetta,,Normal,Psychic
+Meloetta,Meloetta-Pirouette,Normal,Fighting
 Meltan,,Steel,
 Meowscarada,,Grass,Dark
-Meowstic,Female,Psychic,
-Meowstic,Male,Psychic,
+Meowstic,,Psychic,
+Meowstic,Meowstic-F,Psychic,
+Meowstic,Meowstic-F-Mega,Psychic,
+Meowstic,Meowstic-M-Mega,Psychic,
 Meowth,,Normal,
 Meowth,Meowth-Alola,Dark,
 Meowth,Meowth-Galar,Steel,
@@ -669,8 +671,8 @@ Miltank,,Normal,
 Mime Jr.,,Psychic,Fairy
 Mimikyu,,Ghost,Fairy
 Minccino,,Normal,
-Minior,Core Form,Rock,Flying
-Minior,Meteor Form,Rock,Flying
+Minior,,Rock,Flying
+Minior,Minior-Meteor,Rock,Flying
 Minun,,Electric,
 Miraidon,,Electric,Dragon
 Misdreavus,,Ghost,
@@ -680,8 +682,8 @@ Moltres,Moltres-Galar,Dark,Flying
 Monferno,,Fire,Fighting
 Morelull,,Grass,Fairy
 Morgrem,,Dark,Fairy
-Morpeko,Full Belly Mode,Electric,Dark
-Morpeko,Hangry Mode,Electric,Dark
+Morpeko,,Electric,Dark
+Morpeko,Morpeko-Hangry,Electric,Dark
 Mothim,,Bug,Flying
 Mr. Mime,,Psychic,Fairy
 Mr.Mime,Mr. Mime-Galar,Ice,Psychic
@@ -701,9 +703,9 @@ Naclstack,,Rock,
 Naganadel,,Poison,Dragon
 Natu,,Psychic,Flying
 Necrozma,,Psychic,
-Necrozma,Dawn Wings Necrozma,Psychic,Ghost
-Necrozma,Dusk Mane Necrozma,Psychic,Steel
-Necrozma,Ultra Necrozma,Psychic,Dragon
+Necrozma,Necrozma-Dawn-Wings,Psychic,Ghost
+Necrozma,Necrozma-Dusk-Mane,Psychic,Steel
+Necrozma,Necrozma-Ultra,Psychic,Dragon
 Nickit,,Dark,
 Nidoking,,Poison,Ground
 Nidoqueen,,Poison,Ground
@@ -726,30 +728,31 @@ Nymble,,Bug,
 Obstagoon,,Dark,Normal
 Octillery,,Water,
 Oddish,,Grass,Poison
-Ogerpon,Cornerstone Mask,Grass,Rock
-Ogerpon,Hearthflame Mask,Grass,Fire
-Ogerpon,Teal Mask,Grass,
-Ogerpon,Wellspring Mask,Grass,Water
-Oinkologne,Female,Normal,
-Oinkologne,Male,Normal,
+Ogerpon,Ogerpon-Cornerstone-Tera,Grass,Rock
+Ogerpon,Ogerpon-Hearthflame-Tera,Grass,Fire
+Ogerpon,Ogerpon-Teal-Tera,Grass,
+Ogerpon,Ogerpon-Wellspring-Tera,Grass,Water
+Ogerpon,Ogerpon-Wellspring-Tera,Grass,Water
+Oinkologne,,Normal,
+Oinkologne,Oinkologne-F,Normal,
 Okidogi,,Poison,Fighting
 Omanyte,,Rock,Water
 Omastar,,Rock,Water
 Onix,,Rock,Ground
 Oranguru,,Normal,Psychic
 Orbeetle,,Bug,Psychic
-Oricorio,Baile Style,Fire,Flying
-Oricorio,Pa'u Style,Psychic,Flying
-Oricorio,Pom-Pom Style,Electric,Flying
-Oricorio,Sensu Style,Ghost,Flying
+Oricorio,,Fire,Flying
+Oricorio,Oricorio-Pa'u,Psychic,Flying
+Oricorio,Oricorio-Pom-Pom,Electric,Flying
+Oricorio,Oricorio-Sensu,Ghost,Flying
 Orthworm,,Steel,
 Oshawott,,Water,
 Overqwil,,Dark,Poison
 Pachirisu,,Electric,
-Palafin,Hero Form,Water,
-Palafin,Zero Form,Water,
+Palafin,,Water,
+Palafin,Palafin-Hero,Water,
 Palkia,,Water,Dragon
-Palkia,Origin Forme,Water,Dragon
+Palkia,Palkia-Origin,Water,Dragon
 Palossand,,Ghost,Ground
 Palpitoad,,Water,Ground
 Pancham,,Fighting,
@@ -783,7 +786,6 @@ Pidgey,,Normal,Flying
 Pidove,,Normal,Flying
 Pignite,,Fire,Fighting
 Pikachu,,Electric,
-Pikachu,Partner Pikachu,Electric,
 Pikipek,,Normal,Flying
 Piloswine,,Ice,Ground
 Pincurchin,,Electric,
@@ -811,10 +813,10 @@ Primeape,,Fighting,
 Prinplup,,Water,
 Probopass,,Rock,Steel
 Psyduck,,Water,
-Pumpkaboo,Average Size,Ghost,Grass
-Pumpkaboo,Large Size,Ghost,Grass
-Pumpkaboo,Small Size,Ghost,Grass
-Pumpkaboo,Super Size,Ghost,Grass
+Pumpkaboo,,Ghost,Grass
+Pumpkaboo,Pumpkaboo-Large,Ghost,Grass
+Pumpkaboo,Pumpkaboo-Small,Ghost,Grass
+Pumpkaboo,Pumpkaboo-Super,Ghost,Grass
 Pupitar,,Rock,Ground
 Purrloin,,Dark,
 Purugly,,Normal,
@@ -864,18 +866,18 @@ Rillaboom,,Grass,
 Riolu,,Fighting,
 Roaring Moon,,Dragon,Dark
 Rockruff,,Rock,
-Rockruff,Own Tempo Rockruff,Rock,
+Rockruff,Rockruff-Dusk,Rock,
 Roggenrola,,Rock,
 Rolycoly,,Rock,
 Rookidee,,Flying,
 Roselia,,Grass,Poison
 Roserade,,Grass,Poison
 Rotom,,Electric,Ghost
-Rotom,Fan Rotom,Electric,Flying
-Rotom,Frost Rotom,Electric,Ice
-Rotom,Heat Rotom,Electric,Fire
-Rotom,Mow Rotom,Electric,Grass
-Rotom,Wash Rotom,Electric,Water
+Rotom,Rotom-Fan,Electric,Flying
+Rotom,Rotom-Frost,Electric,Ice
+Rotom,Rotom-Heat,Electric,Fire
+Rotom,Rotom-Mow,Electric,Grass
+Rotom,Rotom-Wash,Electric,Water
 Rowlet,,Grass,Flying
 Rufflet,,Normal,Flying
 Runerigus,,Ground,Ghost
@@ -922,8 +924,8 @@ Seviper,,Poison,
 Sewaddle,,Bug,Grass
 Sharpedo,,Water,Dark
 Sharpedo,Sharpedo-Mega,Water,Dark
-Shaymin,Land Forme,Grass,
-Shaymin,Sky Forme,Grass,Flying
+Shaymin,,Grass,
+Shaymin,Shaymin-Sky,Grass,Flying
 Shedinja,,Bug,Ghost
 Shelgon,,Dragon,
 Shellder,,Water,
@@ -998,10 +1000,10 @@ Spiritomb,,Ghost,Dark
 Spoink,,Psychic,
 Sprigatito,,Grass,
 Spritzee,,Fairy,
-Squawkabilly,Blue Plumage,Normal,Flying
-Squawkabilly,Green Plumage,Normal,Flying
-Squawkabilly,White Plumage,Normal,Flying
-Squawkabilly,Yellow Plumage,Normal,Flying
+Squawkabilly,,Normal,Flying
+Squawkabilly,Squawkabilly-Blue,Normal,Flying
+Squawkabilly,Squawkabilly-White,Normal,Flying
+Squawkabilly,Squawkabilly-Yellow,Normal,Flying
 Squirtle,,Water,
 Stakataka,,Rock,Steel
 Stantler,,Normal,
@@ -1057,14 +1059,14 @@ Teddiursa,,Normal,
 Tentacool,,Water,Poison
 Tentacruel,,Water,Poison
 Tepig,,Fire,
-Terapagos,Normal Form,Normal,
-Terapagos,Stellar Form,Normal,
-Terapagos,Terastal Form,Normal,
+Terapagos,,Normal,
+Terapagos,Terapagos-Stellar,Normal,
+Terapagos,Terapagos-Terastal,Normal,
 Terrakion,,Rock,Fighting
 Thievul,,Dark,
 Throh,,Fighting,
-Thundurus,Incarnate Forme,Electric,Flying
-Thundurus,Therian Forme,Electric,Flying
+Thundurus,,Electric,Flying
+Thundurus,Thundurus-Therian,Electric,Flying
 Thwackey,,Grass,
 Timburr,,Fighting,
 Ting-Lu,,Dark,Ground
@@ -1080,8 +1082,8 @@ Togepi,,Fairy,
 Togetic,,Fairy,Flying
 Torchic,,Fire,
 Torkoal,,Fire,
-Tornadus,Incarnate Forme,Flying,
-Tornadus,Therian Forme,Flying,
+Tornadus,,Flying,
+Tornadus,Tornadus-Therian,Flying,
 Torracat,,Fire,
 Torterra,,Grass,Ground
 Totodile,,Water,
@@ -1089,8 +1091,8 @@ Toucannon,,Normal,Flying
 Toxapex,,Poison,Water
 Toxel,,Electric,Poison
 Toxicroak,,Poison,Fighting
-Toxtricity,Amped Form,Electric,Poison
-Toxtricity,Low Key Form,Electric,Poison
+Toxtricity,,Electric,Poison
+Toxtricity,Toxtricity-Low-Key,Electric,Poison
 Tranquill,,Normal,Flying
 Trapinch,,Ground,
 Treecko,,Grass,
@@ -1115,10 +1117,10 @@ Umbreon,,Dark,
 Unfezant,,Normal,Flying
 Unown,,Psychic,
 Ursaluna,,Ground,Normal
-Ursaluna,Bloodmoon,Ground,Normal
+Ursaluna,Ursaluna-Bloodmoon,Ground,Normal
 Ursaring,,Normal,
-Urshifu,Rapid Strike Style,Fighting,Water
-Urshifu,Single Strike Style,Fighting,Dark
+Urshifu,,Fighting,Dark
+Urshifu,Urshifu-Rapid-Strike,Fighting,Water
 Uxie,,Psychic,
 Vanillish,,Ice,
 Vanillite,,Ice,
@@ -1169,17 +1171,17 @@ Wigglytuff,,Normal,Fairy
 Wiglett,,Water,
 Wimpod,,Bug,Water
 Wingull,,Water,Flying
-Wishiwashi,School Form,Water,
-Wishiwashi,Solo Form,Water,
+Wishiwashi,,Water,
+Wishiwashi,Wishiwashi-School,Water,
 Wo-Chien,,Dark,Grass
 Wobbuffet,,Psychic,
 Woobat,,Psychic,Flying
 Wooloo,,Normal,
 Wooper,,Water,Ground
 Wooper,Wooper-Paldea,Poison,Ground
-Wormadam,Plant Cloak,Bug,Grass
-Wormadam,Sandy Cloak,Bug,Ground
-Wormadam,Trash Cloak,Bug,Steel
+Wormadam,,Bug,Grass
+Wormadam,Wormadam-Sandy,Bug,Ground
+Wormadam,Wormadam-Trash,Bug,Steel
 Wugtrio,,Water,
 Wurmple,,Bug,
 Wynaut,,Psychic,
@@ -1194,10 +1196,10 @@ Yanma,,Bug,Flying
 Yanmega,,Bug,Flying
 Yungoos,,Normal,
 Yveltal,,Dark,Flying
-Zacian,Crowned Sword,Fairy,Steel
-Zacian,Hero of Many Battles,Fairy,
-Zamazenta,Crowned Shield,Fighting,Steel
-Zamazenta,Hero of Many Battles,Fighting,
+Zacian,,Fairy,
+Zacian,Zacian-Crowned,Fairy,Steel
+Zamazenta,,Fighting,
+Zamazenta,Zamazenta-Crowned,Fighting,Steel
 Zangoose,,Normal,
 Zapdos,,Electric,Flying
 Zapdos,Zapdos-Galar,Fighting,Flying
