@@ -93,6 +93,7 @@ What follows is a non-exhaustive list of basic competitive Pokémon mechanics.
 # Single Pokémon text-based specification example
 Each Pokémon will be described with a standard text-based representation, referred as 'paste'.
 Remember, Pokémon species names should **always** be capitalized, if the species name is composed by more than one word, each one should be capitalized.
+Pokémon with regional forms should be indicated with a hyphen, for example: Arcanine-Hisui, Weezing-Galar, Wooper-Paldea, Tauros-Paldea-Aqua, etc. If the user does not refer to specific regional form, assume the regular Pokémon instead.
 A paste can contain any number of Pokemon (typically 6), separated by one or more blank lines. A Pokemon is represented by a block of text like this one:
 
 Talonflame @ Flyinium Z
