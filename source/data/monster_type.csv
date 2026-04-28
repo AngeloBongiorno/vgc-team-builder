@@ -1,27 +1,27 @@
 Abomasnow,,Grass,Ice
-Abomasnow,Mega Abomasnow,Grass,Ice
+Abomasnow,Abomasnow-Mega,Grass,Ice
 Abra,,Psychic,
 Absol,,Dark,
-Absol,Mega Absol,Dark,
+Absol,Absol-Mega,Dark,
 Accelgor,,Bug,
 Aegislash,Blade Forme,Steel,Ghost
 Aegislash,Shield Forme,Steel,Ghost
 Aerodactyl,,Rock,Flying
-Aerodactyl,Mega Aerodactyl,Rock,Flying
+Aerodactyl,Aerodactyl-Mega,Rock,Flying
 Aggron,,Steel,Rock
-Aggron,Mega Aggron,Steel,
+Aggron,Aggron-Mega,Steel,
 Aipom,,Normal,
 Alakazam,,Psychic,
-Alakazam,Mega Alakazam,Psychic,
+Alakazam,Alakazam-Mega,Psychic,
 Alcremie,,Fairy,
 Alomomola,,Water,
 Altaria,,Dragon,Flying
-Altaria,Mega Altaria,Dragon,Fairy
+Altaria,Altaria-Mega,Dragon,Fairy
 Amaura,,Rock,Ice
 Ambipom,,Normal,
 Amoonguss,,Grass,Poison
 Ampharos,,Electric,
-Ampharos,Mega Ampharos,Electric,Dragon
+Ampharos,Ampharos-Mega,Electric,Dragon
 Annihilape,,Fighting,Ghost
 Anorith,,Rock,Bug
 Appletun,,Grass,Dragon
@@ -47,7 +47,7 @@ Arrokuda,,Water,
 Articuno,,Ice,Flying
 Articuno,Galarian Articuno,Psychic,Flying
 Audino,,Normal,
-Audino,Mega Audino,Normal,Fairy
+Audino,Audino-Mega,Normal,Fairy
 Aurorus,,Rock,Ice
 Avalugg,,Ice,
 Avalugg,Hisuian Avalugg,Ice,Rock
@@ -58,7 +58,7 @@ Azurill,,Normal,Fairy
 Bagon,,Dragon,
 Baltoy,,Ground,Psychic
 Banette,,Ghost,
-Banette,Mega Banette,Ghost,
+Banette,Banette-Mega,Ghost,
 Barbaracle,,Rock,Water
 Barboach,,Water,Ground
 Barraskewda,,Water,
@@ -73,7 +73,7 @@ Bayleef,,Grass,
 Beartic,,Ice,
 Beautifly,,Bug,Flying
 Beedrill,,Bug,Poison
-Beedrill,Mega Beedrill,Bug,Poison
+Beedrill,Beedrill-Mega,Bug,Poison
 Beheeyem,,Psychic,
 Beldum,,Steel,Psychic
 Bellibolt,,Electric,
@@ -87,9 +87,9 @@ Binacle,,Rock,Water
 Bisharp,,Dark,Steel
 Blacephalon,,Fire,Ghost
 Blastoise,,Water,
-Blastoise,Mega Blastoise,Water,
+Blastoise,Blastoise-Mega,Water,
 Blaziken,,Fire,Fighting
-Blaziken,Mega Blaziken,Fire,Fighting
+Blaziken,Blaziken-Mega,Fire,Fighting
 Blipbug,,Bug,
 Blissey,,Normal,
 Blitzle,,Electric,
@@ -126,7 +126,7 @@ Calyrex,,Psychic,Grass
 Calyrex,Ice Rider,Psychic,Ice
 Calyrex,Shadow Rider,Psychic,Ghost
 Camerupt,,Fire,Ground
-Camerupt,Mega Camerupt,Fire,Ground
+Camerupt,Camerupt-Mega,Fire,Ground
 Capsakid,,Grass,
 Carbink,,Rock,Fairy
 Carkol,,Rock,Fire
@@ -149,8 +149,8 @@ Chandelure,,Ghost,Fire
 Chansey,,Normal,
 Charcadet,,Fire,
 Charizard,,Fire,Flying
-Charizard,Mega Charizard X,Fire,Dragon
-Charizard,Mega Charizard Y,Fire,Flying
+Charizard,Charizard-Mega-X,Fire,Dragon
+Charizard,Charizard-Mega-Y,Fire,Flying
 Charjabug,,Bug,Electric
 Charmander,,Fire,
 Charmeleon,,Fire,
@@ -243,7 +243,7 @@ Dhelmise,,Ghost,Grass
 Dialga,,Steel,Dragon
 Dialga,Origin Forme,Steel,Dragon
 Diancie,,Rock,Fairy
-Diancie,Mega Diancie,Rock,Fairy
+Diancie,Diancie-Mega,Rock,Fairy
 Diggersby,,Normal,Ground
 Diglett,,Ground,
 Diglett,Alolan Diglett,Ground,Steel
@@ -262,7 +262,7 @@ Dragalge,,Poison,Dragon
 Dragapult,,Dragon,Ghost
 Dragonair,,Dragon,
 Dragonite,,Dragon,Flying
-Dragonite,Mega Dragonite,Dragon,Flying
+Dragonite,Dragonite-Mega,Dragon,Flying
 Drakloak,,Dragon,Ghost
 Drampa,,Normal,Dragon
 Drapion,,Poison,Dark
@@ -346,6 +346,8 @@ Fletchling,,Normal,Flying
 Flittle,,Psychic,
 Floatzel,,Water,
 Floette,,Fairy,
+Floette,Eternal Floette,Fairy,
+Floette,Floette-Mega,Fairy,
 Floragato,,Grass,
 Florges,,Fairy,
 Flutter Mane,,Ghost,Fairy
@@ -365,19 +367,19 @@ Furfrou,,Normal,
 Furret,,Normal,
 Gabite,,Dragon,Ground
 Gallade,,Psychic,Fighting
-Gallade,Mega Gallade,Psychic,Fighting
+Gallade,Gallade-Mega,Psychic,Fighting
 Galvantula,,Bug,Electric
 Garbodor,,Poison,
 Garchomp,,Dragon,Ground
-Garchomp,Mega Garchomp,Dragon,Ground
+Garchomp,Garchomp-Mega,Dragon,Ground
 Gardevoir,,Psychic,Fairy
-Gardevoir,Mega Gardevoir,Psychic,Fairy
+Gardevoir,Gardevoir-Mega,Psychic,Fairy
 Garganacl,,Rock,
 Gastly,,Ghost,Poison
 Gastrodon,,Water,Ground
 Genesect,,Bug,Steel
 Gengar,,Ghost,Poison
-Gengar,Mega Gengar,Ghost,Poison
+Gengar,Gengar-Mega,Ghost,Poison
 Geodude,,Rock,Ground
 Geodude,Alolan Geodude,Rock,Electric
 Gholdengo,,Steel,Ghost
@@ -390,7 +392,7 @@ Giratina,Altered Forme,Ghost,Dragon
 Giratina,Origin Forme,Ghost,Dragon
 Glaceon,,Ice,
 Glalie,,Ice,
-Glalie,Mega Glalie,Ice,
+Glalie,Glalie-Mega,Ice,
 Glameow,,Normal,
 Glastrier,,Ice,
 Gligar,,Ground,Flying
@@ -447,7 +449,7 @@ Gumshoos,,Normal,
 Gurdurr,,Fighting,
 Guzzlord,,Dark,Dragon
 Gyarados,,Water,Flying
-Gyarados,Mega Gyarados,Water,Dark
+Gyarados,Gyarados-Mega,Water,Dark
 Hakamo-o,,Dragon,Fighting
 Happiny,,Normal,
 Hariyama,,Fighting,
@@ -456,14 +458,14 @@ Hatterene,,Psychic,Fairy
 Hattrem,,Psychic,
 Haunter,,Ghost,Poison
 Hawlucha,,Fighting,Flying
-Hawlucha,Mega Hawlucha,Fighting,Flying
+Hawlucha,Hawlucha-Mega,Fighting,Flying
 Haxorus,,Dragon,
 Heatmor,,Fire,
 Heatran,,Fire,Steel
 Heliolisk,,Electric,Normal
 Helioptile,,Electric,Normal
 Heracross,,Bug,Fighting
-Heracross,Mega Heracross,Bug,Fighting
+Heracross,Heracross-Mega,Bug,Fighting
 Herdier,,Normal,
 Hippopotas,,Ground,
 Hippowdon,,Ground,
@@ -479,7 +481,7 @@ Hoothoot,,Normal,Flying
 Hoppip,,Grass,Flying
 Horsea,,Water,
 Houndoom,,Dark,Fire
-Houndoom,Mega Houndoom,Dark,Fire
+Houndoom,Houndoom-Mega,Dark,Fire
 Houndour,,Dark,Fire
 Houndstone,,Ghost,
 Huntail,,Water,
@@ -519,7 +521,7 @@ Kabutops,,Rock,Water
 Kadabra,,Psychic,
 Kakuna,,Bug,Poison
 Kangaskhan,,Normal,
-Kangaskhan,Mega Kangaskhan,Normal,
+Kangaskhan,Kangaskhan-Mega,Normal,
 Karrablast,,Bug,
 Kartana,,Grass,Steel
 Kecleon,,Normal,
@@ -560,9 +562,9 @@ Lapras,,Water,Ice
 Larvesta,,Bug,Fire
 Larvitar,,Rock,Ground
 Latias,,Dragon,Psychic
-Latias,Mega Latias,Dragon,Psychic
+Latias,Latias-Mega,Dragon,Psychic
 Latios,,Dragon,Psychic
-Latios,Mega Latios,Dragon,Psychic
+Latios,Latios-Mega,Dragon,Psychic
 Leafeon,,Grass,
 Leavanny,,Bug,Grass
 Lechonk,,Normal,
@@ -583,11 +585,11 @@ Litwick,,Ghost,Fire
 Lokix,,Bug,Dark
 Lombre,,Water,Grass
 Lopunny,,Normal,
-Lopunny,Mega Lopunny,Normal,Fighting
+Lopunny,Lopunny-Mega,Normal,Fighting
 Lotad,,Water,Grass
 Loudred,,Normal,
 Lucario,,Fighting,Steel
-Lucario,Mega Lucario,Fighting,Steel
+Lucario,Lucario-Mega,Fighting,Steel
 Ludicolo,,Water,Grass
 Lugia,,Psychic,Flying
 Lumineon,,Water,
@@ -615,12 +617,12 @@ Magneton,,Electric,Steel
 Magnezone,,Electric,Steel
 Makuhita,,Fighting,
 Malamar,,Dark,Psychic
-Malamar,Mega Malamar,Dark,Psychic
+Malamar,Malamar-Mega,Dark,Psychic
 Mamoswine,,Ice,Ground
 Manaphy,,Water,
 Mandibuzz,,Dark,Flying
 Manectric,,Electric,
-Manectric,Mega Manectric,Electric,
+Manectric,Manectric-Mega,Electric,
 Mankey,,Fighting,
 Mantine,,Water,Flying
 Mantyke,,Water,Flying
@@ -637,9 +639,9 @@ Masquerain,,Bug,Flying
 Maushold,Family of Four,Normal,
 Maushold,Family of Three,Normal,
 Mawile,,Steel,Fairy
-Mawile,Mega Mawile,Steel,Fairy
+Mawile,Mawile-Mega,Steel,Fairy
 Medicham,,Fighting,Psychic
-Medicham,Mega Medicham,Fighting,Psychic
+Medicham,Medicham-Mega,Fighting,Psychic
 Meditite,,Fighting,Psychic
 Meganium,,Grass,
 Melmetal,,Steel,
@@ -654,13 +656,13 @@ Meowth,Alolan Meowth,Dark,
 Meowth,Galarian Meowth,Steel,
 Mesprit,,Psychic,
 Metagross,,Steel,Psychic
-Metagross,Mega Metagross,Steel,Psychic
+Metagross,Metagross-Mega,Steel,Psychic
 Metang,,Steel,Psychic
 Metapod,,Bug,
 Mew,,Psychic,
 Mewtwo,,Psychic,
-Mewtwo,Mega Mewtwo X,Psychic,Fighting
-Mewtwo,Mega Mewtwo Y,Psychic,
+Mewtwo,Mewtwo-Mega-X,Psychic,Fighting
+Mewtwo,Mewtwo-Mega-Y,Psychic,
 Mienfoo,,Fighting,
 Mienshao,,Fighting,
 Mightyena,,Dark,
@@ -700,7 +702,6 @@ Musharna,,Psychic,
 Nacli,,Rock,
 Naclstack,,Rock,
 Naganadel,,Poison,Dragon
-Name,Form,Type 1,Type 2
 Natu,,Psychic,Flying
 Necrozma,,Psychic,
 Necrozma,Dawn Wings Necrozma,Psychic,Ghost
@@ -779,7 +780,7 @@ Pheromosa,,Bug,Fighting
 Phione,,Water,
 Pichu,,Electric,
 Pidgeot,,Normal,Flying
-Pidgeot,Mega Pidgeot,Normal,Flying
+Pidgeot,Pidgeot-Mega,Normal,Flying
 Pidgeotto,,Normal,Flying
 Pidgey,,Normal,Flying
 Pidove,,Normal,Flying
@@ -791,7 +792,7 @@ Piloswine,,Ice,Ground
 Pincurchin,,Electric,
 Pineco,,Bug,
 Pinsir,,Bug,
-Pinsir,Mega Pinsir,Bug,Flying
+Pinsir,Pinsir-Mega,Bug,Flying
 Piplup,,Water,
 Plusle,,Electric,
 Poipole,,Poison,
@@ -845,7 +846,7 @@ Raticate,Alolan Raticate,Dark,Normal
 Rattata,,Normal,
 Rattata,Alolan Rattata,Dark,Normal
 Rayquaza,,Dragon,Flying
-Rayquaza,Mega Rayquaza,Dragon,Flying
+Rayquaza,Rayquaza-Mega,Dragon,Flying
 Regice,,Ice,
 Regidrago,,Dragon,
 Regieleki,,Electric,
@@ -882,9 +883,9 @@ Rowlet,,Grass,Flying
 Rufflet,,Normal,Flying
 Runerigus,,Ground,Ghost
 Sableye,,Dark,Ghost
-Sableye,Mega Sableye,Dark,Ghost
+Sableye,Sableye-Mega,Dark,Ghost
 Salamence,,Dragon,Flying
-Salamence,Mega Salamence,Dragon,Flying
+Salamence,Salamence-Mega,Dragon,Flying
 Salandit,,Poison,Fire
 Salazzle,,Poison,Fire
 Samurott,,Water,
@@ -901,9 +902,9 @@ Sawk,,Fighting,
 Sawsbuck,,Normal,Grass
 Scatterbug,,Bug,
 Sceptile,,Grass,
-Sceptile,Mega Sceptile,Grass,Dragon
+Sceptile,Sceptile-Mega,Grass,Dragon
 Scizor,,Bug,Steel
-Scizor,Mega Scizor,Bug,Steel
+Scizor,Scizor-Mega,Bug,Steel
 Scolipede,,Bug,Poison
 Scorbunny,,Fire,
 Scovillain,,Grass,Fire
@@ -923,7 +924,7 @@ Servine,,Grass,
 Seviper,,Poison,
 Sewaddle,,Bug,Grass
 Sharpedo,,Water,Dark
-Sharpedo,Mega Sharpedo,Water,Dark
+Sharpedo,Sharpedo-Mega,Water,Dark
 Shaymin,Land Forme,Grass,
 Shaymin,Sky Forme,Grass,Flying
 Shedinja,,Bug,Ghost
@@ -966,7 +967,7 @@ Sliggoo,Hisuian Sliggoo,Steel,Dragon
 Slither Wing,,Bug,Fighting
 Slowbro,,Water,Psychic
 Slowbro,Galarian Slowbro,Poison,Psychic
-Slowbro,Mega Slowbro,Water,Psychic
+Slowbro,Slowbro-Mega,Water,Psychic
 Slowking,,Water,Psychic
 Slowking,Galarian Slowking,Poison,Psychic
 Slowpoke,,Water,Psychic
@@ -1013,7 +1014,7 @@ Starly,,Normal,Flying
 Starmie,,Water,Psychic
 Staryu,,Water,
 Steelix,,Steel,Ground
-Steelix,Mega Steelix,Steel,Ground
+Steelix,Steelix-Mega,Steel,Ground
 Steenee,,Grass,
 Stonjourner,,Rock,
 Stoutland,,Normal,
@@ -1030,7 +1031,7 @@ Swablu,,Normal,Flying
 Swadloon,,Bug,Grass
 Swalot,,Poison,
 Swampert,,Water,Ground
-Swampert,Mega Swampert,Water,Ground
+Swampert,Swampert-Mega,Water,Ground
 Swanna,,Water,Flying
 Swellow,,Normal,Flying
 Swinub,,Ice,Ground
@@ -1109,7 +1110,7 @@ Type: Null,,Normal,
 Typhlosion,,Fire,
 Typhlosion,Hisuian Typhlosion,Fire,Ghost
 Tyranitar,,Rock,Dark
-Tyranitar,Mega Tyranitar,Rock,Dark
+Tyranitar,Tyranitar-Mega,Rock,Dark
 Tyrantrum,,Rock,Dragon
 Tyrogue,,Fighting,
 Tyrunt,,Rock,Dragon
@@ -1132,12 +1133,12 @@ Venipede,,Bug,Poison
 Venomoth,,Bug,Poison
 Venonat,,Bug,Poison
 Venusaur,,Grass,Poison
-Venusaur,Mega Venusaur,Grass,Poison
+Venusaur,Venusaur-Mega,Grass,Poison
 Vespiquen,,Bug,Flying
 Vibrava,,Ground,Dragon
 Victini,,Psychic,Fire
 Victreebel,,Grass,Poison
-Victreebel,Mega Victreebel,Grass,Poison
+Victreebel,Victreebel-Mega,Grass,Poison
 Vigoroth,,Normal,
 Vikavolt,,Bug,Electric
 Vileplume,,Grass,Poison

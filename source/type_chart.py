@@ -21,6 +21,7 @@ type_effectiveness: dict[str, dict[str, float]] = {
     "Fairy": {"Fire": 0.5, "Fighting": 2, "Poison": 0.5, "Dragon": 2, "Dark": 2, "Steel": 0.5}
 }
 
+
 def compute_weaknesses(pokemon_type: tuple[str, str | None]) -> dict[str, float]:
 
     type1, type2 = pokemon_type
@@ -37,14 +38,14 @@ def compute_weaknesses(pokemon_type: tuple[str, str | None]) -> dict[str, float]
 
     return result
 
-def compute_team_weakness(team: Team) -> dict[str, dict[str, float]]:
+def compute_team_weaknesses(team: Team) -> dict[str, dict[str, float]]:
 
-    species_weakness_chart = {}
+    species_weakness_chart: dict[str, dict[str, float]] = {}
 
     for monster in team.slots:
         monster_species = monster.species
         pokemon_type = monster.get_type()
-        weakness = compute_team_weakness(pokemon_type)
+        weakness = compute_weaknesses(pokemon_type)
         species_weakness_chart[monster_species] = weakness
 
-    return {}
+    return species_weakness_chart

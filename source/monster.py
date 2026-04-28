@@ -1,6 +1,18 @@
 from pydantic import BaseModel, Field, model_validator
 from enum import Enum
 from typing import Annotated
+from pathlib import Path
+import csv
+
+_type_data: list[dict[str, str]] = []
+
+def _load_type_data() -> list[dict[str, str]]:
+    path = Path('source/data/monster_type.csv')
+    with open(path, newline='', encoding='utf-8') as f:
+        reader = csv.DictReader(f, fieldnames=["name", "form", "type1", "type2"])
+        return [row for row in reader]
+
+_type_data = _load_type_data()
 
 class Move(BaseModel):
     name: str
@@ -66,9 +78,11 @@ class Monster(BaseModel):
             output += f"- {move.name}\n"
         return output
 
-    def get_type(self):
-        
-
+    def get_type(self) -> tuple[str, str | None]:
+        for row in _type_data:
+            if row['name'].lower() == self.species.lower():
+                return row["type1"], row["type2"] or None
+        raise ValueError(f"Species '{self.species}' not found in the type data")
 
 
 if __name__ == "__main__":
